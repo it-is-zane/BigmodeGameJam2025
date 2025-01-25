@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://dhibfsqa288jj"]
+
+[ext_resource type="Texture2D" uid="uid://tf6gh4chbbrw" path="res://Sprites/Backgrounds/Layer2/free-city-backgrounds-pixel-art/city 8/7.png" id="1_mijht"]
+[ext_resource type="Texture2D" uid="uid://bna57ilwxddrb" path="res://Sprites/Backgrounds/Layer1/TrainCars.png" id="2_7pqws"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="BackgroundRoot" type="Node2D" parent="."]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="BackgroundRoot"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="BackgroundRoot/ParallaxBackground"]
+
+[node name="BehindTrain" type="Sprite2D" parent="BackgroundRoot/ParallaxBackground/ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(0, -45)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("1_mijht")
+
+[node name="TrainCars" type="Sprite2D" parent="BackgroundRoot"]
+texture_filter = 1
+scale = Vector2(10, 10)
+texture = ExtResource("2_7pqws")
