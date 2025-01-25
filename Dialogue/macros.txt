@@ -1,0 +1,4 @@
+Our Macros are
+RNDM_NPC - replaced with a random npc each time
+ALIBI_NPC - two innocent NPCs will get each other as alibis
+SUSPICIOUS_NPC - every npc will get a suspicious npc which has a 50% chance to be the murderer.
