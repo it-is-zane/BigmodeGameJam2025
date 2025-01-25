@@ -1,0 +1,5 @@
+--These 6 should be pretty easy to use as characters if we want, just use the idle animation
+
+Boy, CyberpunkStyle\1 Biker, Cyberpunk\2 Punk, AdventureStyle\3 SteamMan, Gangsters\Gangsters_3, and Guy with Backpack
+
+--The rest are carrying some sort of weapon, so might be trickier to just slot in, but still fit the art style.
