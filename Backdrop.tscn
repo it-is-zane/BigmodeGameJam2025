@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://dhibfsqa288jj"]
+[gd_scene load_steps=4 format=3 uid="uid://dhibfsqa288jj"]
 
 [ext_resource type="Texture2D" uid="uid://tf6gh4chbbrw" path="res://Sprites/Backgrounds/Layer2/free-city-backgrounds-pixel-art/city 8/7.png" id="1_mijht"]
 [ext_resource type="Texture2D" uid="uid://bna57ilwxddrb" path="res://Sprites/Backgrounds/Layer1/TrainCars.png" id="2_7pqws"]
+[ext_resource type="PackedScene" uid="uid://cqi243nd2cst6" path="res://GameObjects/npcnode.tscn" id="3_n6sru"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -10,14 +11,18 @@
 [node name="ParallaxBackground" type="ParallaxBackground" parent="BackgroundRoot"]
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="BackgroundRoot/ParallaxBackground"]
+position = Vector2(575, 300)
+scale = Vector2(0.5, 0.5)
 
 [node name="BehindTrain" type="Sprite2D" parent="BackgroundRoot/ParallaxBackground/ParallaxLayer"]
 texture_repeat = 2
-position = Vector2(0, -45)
-scale = Vector2(0.25, 0.25)
+scale = Vector2(2, 2)
 texture = ExtResource("1_mijht")
 
 [node name="TrainCars" type="Sprite2D" parent="BackgroundRoot"]
 texture_filter = 1
+position = Vector2(579, 399)
 scale = Vector2(10, 10)
 texture = ExtResource("2_7pqws")
+
+[node name="NPCnode" parent="." instance=ExtResource("3_n6sru")]
