@@ -1,0 +1,461 @@
+[gd_scene load_steps=80 format=3 uid="uid://dvt8ltc3ee8ex"]
+
+[ext_resource type="Texture2D" uid="uid://bqd3ow28by2v7" path="res://assets/sprites/CartoonDetective/Aim/Aim_01.png" id="1_3g1o2"]
+[ext_resource type="Texture2D" uid="uid://dloh18gp5iq0e" path="res://assets/sprites/CartoonDetective/Aim/Aim_02.png" id="2_a5b8q"]
+[ext_resource type="Texture2D" uid="uid://bkmym55d0s2fn" path="res://assets/sprites/CartoonDetective/Aim/Aim_03.png" id="3_i2n8e"]
+[ext_resource type="Texture2D" uid="uid://dnaify72jugnm" path="res://assets/sprites/CartoonDetective/Aim/Aim_04.png" id="4_xn1yp"]
+[ext_resource type="Texture2D" uid="uid://duxk4q22jfj1q" path="res://assets/sprites/CartoonDetective/Aim/Aim_05.png" id="5_wdh2x"]
+[ext_resource type="Texture2D" uid="uid://cyf0bi43y2mnd" path="res://assets/sprites/CartoonDetective/Aim/Aim_06.png" id="6_uwc85"]
+[ext_resource type="Texture2D" uid="uid://dk2nt02ywuc8m" path="res://assets/sprites/CartoonDetective/AimCrouch/AimCrouch_01.png" id="7_q6kj0"]
+[ext_resource type="Texture2D" uid="uid://drk286rs8c7ok" path="res://assets/sprites/CartoonDetective/AimCrouch/AimCrouch_02.png" id="8_etp3d"]
+[ext_resource type="Texture2D" uid="uid://b4et536huie8a" path="res://assets/sprites/CartoonDetective/AimCrouch/AimCrouch_03.png" id="9_rjkey"]
+[ext_resource type="Texture2D" uid="uid://cmkb4ks1fvhdb" path="res://assets/sprites/CartoonDetective/AimCrouch/AimCrouch_04.png" id="10_cvtmb"]
+[ext_resource type="Texture2D" uid="uid://cry7xgnerbwl6" path="res://assets/sprites/CartoonDetective/AimCrouch/AimCrouch_05.png" id="11_wm13v"]
+[ext_resource type="Texture2D" uid="uid://c848iv5jo4r4b" path="res://assets/sprites/CartoonDetective/AimCrouch/AimCrouch_06.png" id="12_pipjo"]
+[ext_resource type="Texture2D" uid="uid://b7fjtipbjsvey" path="res://assets/sprites/CartoonDetective/Crouch/Crouch_01.png" id="13_cx81w"]
+[ext_resource type="Texture2D" uid="uid://c1p3f74bdal3y" path="res://assets/sprites/CartoonDetective/Crouch/Crouch_02.png" id="14_3csrj"]
+[ext_resource type="Texture2D" uid="uid://dnyts4a87cwcp" path="res://assets/sprites/CartoonDetective/Crouch/Crouch_03.png" id="15_7qx2b"]
+[ext_resource type="Texture2D" uid="uid://2mallhlg36by" path="res://assets/sprites/CartoonDetective/Crouch/Crouch_04.png" id="16_yt2ui"]
+[ext_resource type="Texture2D" uid="uid://bdu42nmlxjbfa" path="res://assets/sprites/CartoonDetective/Crouch/Crouch_05.png" id="17_5yemy"]
+[ext_resource type="Texture2D" uid="uid://dvgck7auycy26" path="res://assets/sprites/CartoonDetective/Crouch/Crouch_06.png" id="18_xlthe"]
+[ext_resource type="Texture2D" uid="uid://colta1opfp4c7" path="res://assets/sprites/CartoonDetective/GunOut/GunOut_01.png" id="19_4de8o"]
+[ext_resource type="Texture2D" uid="uid://ba5tpddlko2xl" path="res://assets/sprites/CartoonDetective/GunOut/GunOut_02.png" id="20_62d2s"]
+[ext_resource type="Texture2D" uid="uid://cypp1r1jr0t17" path="res://assets/sprites/CartoonDetective/GunOut/GunOut_03.png" id="21_y66pj"]
+[ext_resource type="Texture2D" uid="uid://3kijksbpe2kr" path="res://assets/sprites/CartoonDetective/GunOut/GunOut_04.png" id="22_bk5pv"]
+[ext_resource type="Texture2D" uid="uid://kthu5uvtg5ro" path="res://assets/sprites/CartoonDetective/GunOut/GunOut_05.png" id="23_t6htv"]
+[ext_resource type="Texture2D" uid="uid://dtd434l7thlj3" path="res://assets/sprites/CartoonDetective/GunOut/GunOut_06.png" id="24_yoh80"]
+[ext_resource type="Texture2D" uid="uid://c6paofsqhvwal" path="res://assets/sprites/CartoonDetective/GunOut/GunOut_07.png" id="25_xmso7"]
+[ext_resource type="Texture2D" uid="uid://ciwcwwn3jmw5k" path="res://assets/sprites/CartoonDetective/GunOut/GunOut_08.png" id="26_1m0m7"]
+[ext_resource type="Texture2D" uid="uid://w3aodtecue36" path="res://assets/sprites/CartoonDetective/GunOut/GunOut_09.png" id="27_ymg8e"]
+[ext_resource type="Texture2D" uid="uid://nh3o5lbkuh7s" path="res://assets/sprites/CartoonDetective/Idle/Idle_01.png" id="28_xo3pc"]
+[ext_resource type="Texture2D" uid="uid://bpevxbgr5rgep" path="res://assets/sprites/CartoonDetective/Idle/Idle_03.png" id="29_2ksdh"]
+[ext_resource type="Texture2D" uid="uid://b1wjnfokojosb" path="res://assets/sprites/CartoonDetective/Idle/Idle_02.png" id="30_uvxfs"]
+[ext_resource type="Texture2D" uid="uid://7j4ebxdh10uu" path="res://assets/sprites/CartoonDetective/Idle/Idle_04.png" id="31_3e3fd"]
+[ext_resource type="Texture2D" uid="uid://1w18m1m76fwv" path="res://assets/sprites/CartoonDetective/Reload/Reload_01.png" id="32_5jxfg"]
+[ext_resource type="Texture2D" uid="uid://dx5xqh3k7nfo" path="res://assets/sprites/CartoonDetective/Reload/Reload_02.png" id="33_jeb86"]
+[ext_resource type="Texture2D" uid="uid://dnywpdmfls5uf" path="res://assets/sprites/CartoonDetective/Reload/Reload_03.png" id="34_uqetm"]
+[ext_resource type="Texture2D" uid="uid://s65rq2fcbbjb" path="res://assets/sprites/CartoonDetective/Reload/Reload_04.png" id="35_asmbt"]
+[ext_resource type="Texture2D" uid="uid://6meha2hbtnm6" path="res://assets/sprites/CartoonDetective/Reload/Reload_05.png" id="36_avpr3"]
+[ext_resource type="Texture2D" uid="uid://dub3n0kuxr16m" path="res://assets/sprites/CartoonDetective/Reload/Reload_06.png" id="37_dge1t"]
+[ext_resource type="Texture2D" uid="uid://dkjtxb0dfh83p" path="res://assets/sprites/CartoonDetective/Reload/Reload_07.png" id="38_kmrhk"]
+[ext_resource type="Texture2D" uid="uid://1i7ihr0cmhwf" path="res://assets/sprites/CartoonDetective/Reload/Reload_08.png" id="39_obo1f"]
+[ext_resource type="Texture2D" uid="uid://d1h65wo0k3l7t" path="res://assets/sprites/CartoonDetective/Reload/Reload_09.png" id="40_l3i0l"]
+[ext_resource type="Texture2D" uid="uid://mp57x3pqrchn" path="res://assets/sprites/CartoonDetective/Reload/Reload_10.png" id="41_5x1ug"]
+[ext_resource type="Texture2D" uid="uid://bm3as3u0e6lry" path="res://assets/sprites/CartoonDetective/Reload/Reload_11.png" id="42_dwkbf"]
+[ext_resource type="Texture2D" uid="uid://bcpw2rlq30oel" path="res://assets/sprites/CartoonDetective/Reload/Reload_12.png" id="43_p7kic"]
+[ext_resource type="Texture2D" uid="uid://dmfvpg771v1ij" path="res://assets/sprites/CartoonDetective/Reload/Reload_13.png" id="44_wj1h2"]
+[ext_resource type="Texture2D" uid="uid://6ddbdljb2j33" path="res://assets/sprites/CartoonDetective/Reload/Reload_14.png" id="45_g6s2x"]
+[ext_resource type="Texture2D" uid="uid://bou71ofpwt0j6" path="res://assets/sprites/CartoonDetective/Reload/Reload_15.png" id="46_1unan"]
+[ext_resource type="Texture2D" uid="uid://dd6jydjadxwm4" path="res://assets/sprites/CartoonDetective/Reload/Reload_16.png" id="47_254dd"]
+[ext_resource type="Texture2D" uid="uid://ddgxybdc41xe4" path="res://assets/sprites/CartoonDetective/Reload/Reload_17.png" id="48_o3thu"]
+[ext_resource type="Texture2D" uid="uid://bm8l77ykw1yc3" path="res://assets/sprites/CartoonDetective/ReloadCrouch/ReloadCrouch_01.png" id="49_30p55"]
+[ext_resource type="Texture2D" uid="uid://d11yetsxws8ko" path="res://assets/sprites/CartoonDetective/ReloadCrouch/ReloadCrouch_02.png" id="50_ptr2h"]
+[ext_resource type="Texture2D" uid="uid://ba5yhnoanylk7" path="res://assets/sprites/CartoonDetective/ReloadCrouch/ReloadCrouch_03.png" id="51_pfem8"]
+[ext_resource type="Texture2D" uid="uid://bxcca7uisaj7k" path="res://assets/sprites/CartoonDetective/ReloadCrouch/ReloadCrouch_04.png" id="52_0o24l"]
+[ext_resource type="Texture2D" uid="uid://c7ma4yytgt4h5" path="res://assets/sprites/CartoonDetective/ReloadCrouch/ReloadCrouch_05.png" id="53_dxdrj"]
+[ext_resource type="Texture2D" uid="uid://debvln75eyxnl" path="res://assets/sprites/CartoonDetective/ReloadCrouch/ReloadCrouch_06.png" id="54_yvfg4"]
+[ext_resource type="Texture2D" uid="uid://baqw0348d6gt8" path="res://assets/sprites/CartoonDetective/ReloadCrouch/ReloadCrouch_07.png" id="55_obssd"]
+[ext_resource type="Texture2D" uid="uid://hxf8ykc03f6f" path="res://assets/sprites/CartoonDetective/ReloadCrouch/ReloadCrouch_08.png" id="56_a5g3j"]
+[ext_resource type="Texture2D" uid="uid://dy31voglkb840" path="res://assets/sprites/CartoonDetective/Run/Run_01.png" id="57_guvak"]
+[ext_resource type="Texture2D" uid="uid://s76t8twa1d0n" path="res://assets/sprites/CartoonDetective/Run/Run_02.png" id="58_rnixi"]
+[ext_resource type="Texture2D" uid="uid://c5ov0fi4l3a17" path="res://assets/sprites/CartoonDetective/Run/Run_03.png" id="59_ere5j"]
+[ext_resource type="Texture2D" uid="uid://b760gto3r8lfw" path="res://assets/sprites/CartoonDetective/Run/Run_04.png" id="60_kiuxu"]
+[ext_resource type="Texture2D" uid="uid://bpmr7p3mvwc4s" path="res://assets/sprites/CartoonDetective/Run/Run_05.png" id="61_uoqbk"]
+[ext_resource type="Texture2D" uid="uid://c1gv84gps7i2f" path="res://assets/sprites/CartoonDetective/Run/Run_06.png" id="62_aytws"]
+[ext_resource type="Texture2D" uid="uid://bj62iyxxofjqh" path="res://assets/sprites/CartoonDetective/Run/Run_07.png" id="63_qy7v6"]
+[ext_resource type="Texture2D" uid="uid://bnd80vnf0gq3" path="res://assets/sprites/CartoonDetective/Run/Run_08.png" id="64_tufmm"]
+[ext_resource type="Texture2D" uid="uid://oarcmt4lvot3" path="res://assets/sprites/CartoonDetective/Shoot/Shoot_01.png" id="65_lfsm8"]
+[ext_resource type="Texture2D" uid="uid://bicjnroegkq2g" path="res://assets/sprites/CartoonDetective/Shoot/Shoot_02.png" id="66_qptat"]
+[ext_resource type="Texture2D" uid="uid://b3eu1nosref1s" path="res://assets/sprites/CartoonDetective/Shoot/Shoot_03.png" id="67_44664"]
+[ext_resource type="Texture2D" uid="uid://5hn1p2bbpa4a" path="res://assets/sprites/CartoonDetective/Shoot/Shoot_04.png" id="68_pnfkc"]
+[ext_resource type="Texture2D" uid="uid://bb26njs8ukfcp" path="res://assets/sprites/CartoonDetective/Shoot/Shoot_05.png" id="69_g8wso"]
+[ext_resource type="Texture2D" uid="uid://mg5pp42pjr64" path="res://assets/sprites/CartoonDetective/ShootCrouch/ShootCrouch_01.png" id="70_bawlu"]
+[ext_resource type="Texture2D" uid="uid://bg67biuthg76d" path="res://assets/sprites/CartoonDetective/ShootCrouch/ShootCrouch_02.png" id="71_g8wm0"]
+[ext_resource type="Texture2D" uid="uid://dcu8fpjijsc1o" path="res://assets/sprites/CartoonDetective/ShootCrouch/ShootCrouch_03.png" id="72_5wt3h"]
+[ext_resource type="Texture2D" uid="uid://b6bqprkhquv2d" path="res://assets/sprites/CartoonDetective/ShootCrouch/ShootCrouch_04.png" id="73_ys2vj"]
+[ext_resource type="Texture2D" uid="uid://cvcoby622i0jv" path="res://assets/sprites/CartoonDetective/ShootCrouch/ShootCrouch_05.png" id="74_02kix"]
+
+[sub_resource type="GDScript" id="GDScript_nlk3j"]
+script/source = "extends RigidBody2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+func _physics_process(delta: float) -> void:
+	var wishdir: float = Input.get_axis(\"backwards\", \"forwards\")
+	if $ShapeCast2D.is_colliding():
+		apply_torque(
+			(wishdir * 100000 - (angular_velocity) * 10000)
+			/ max(1, abs(angular_velocity))
+		)
+	else:
+		apply_torque(
+			(wishdir * 100000 - (angular_velocity) * 1000)
+			/ max(1, abs(angular_velocity))
+		)
+	
+	if Input.is_action_just_pressed(\"jump\") and $ShapeCast2D.is_colliding():
+		apply_central_impulse((to_global(Vector2.UP) - position) * 250)
+
+
+func _process(delta: float) -> void:
+	if Input.is_action_just_pressed(\"shoot\") and (to_global(Vector2.UP) - position).dot(Vector2.UP) > 0.5:
+		queue_dir.clear()
+		queue.clear()
+		queue_dir.push_front(true)
+		queue.push_front(\"GunOut\")
+		queue_dir.push_front(true)
+		queue.push_front(\"Aim\")
+		queue_dir.push_front(true)
+		queue.push_front(\"Shoot\")
+		queue_dir.push_front(false)
+		queue.push_front(\"Aim\")
+		queue_dir.push_front(false)
+		queue.push_front(\"GunOut\")
+
+
+var queue = []
+var queue_dir = []
+func _on_animated_sprite_2d_animation_finished() -> void:
+	if $AnimatedSprite2D.animation == \"Shoot\":
+		if $RayCast2D.is_colliding():
+			var body = $RayCast2D.get_collider().get_parent()
+			print(body)
+			
+			apply_central_impulse(
+				(to_global(Vector2.LEFT) - position) * 1000
+			)
+			
+			if body.is_in_group(\"NPC\"):
+				body.SaySomethin(\"oof\")
+				await get_tree().create_timer(1).timeout
+				body.queue_free()
+	
+	if queue.is_empty():
+		$AnimatedSprite2D.play(\"Idle\")
+	else:
+		if queue_dir.pop_back():
+			$AnimatedSprite2D.play(queue.pop_back())
+		else:
+			$AnimatedSprite2D.play_backwards(queue.pop_back())
+"
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_sqvhy"]
+radius = 4.0
+height = 36.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_di5hu"]
+size = Vector2(8, 4)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ovws5"]
+radius = 6.0
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_34ahq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_3g1o2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_a5b8q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_i2n8e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_xn1yp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_wdh2x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_uwc85")
+}],
+"loop": false,
+"name": &"Aim",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_q6kj0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_etp3d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_rjkey")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_cvtmb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_wm13v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_pipjo")
+}],
+"loop": false,
+"name": &"AimCrouch",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_cx81w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_3csrj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_7qx2b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_yt2ui")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_5yemy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_xlthe")
+}],
+"loop": false,
+"name": &"Crouch",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19_4de8o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_62d2s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_y66pj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_bk5pv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_t6htv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_yoh80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_xmso7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_1m0m7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_ymg8e")
+}],
+"loop": false,
+"name": &"GunOut",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("28_xo3pc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_2ksdh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_uvxfs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_3e3fd")
+}],
+"loop": false,
+"name": &"Idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("32_5jxfg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_jeb86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_uqetm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_asmbt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_avpr3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_dge1t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_kmrhk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_obo1f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_l3i0l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_5x1ug")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_dwkbf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_p7kic")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_wj1h2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_g6s2x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_1unan")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_254dd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_o3thu")
+}],
+"loop": false,
+"name": &"Reload",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("49_30p55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_ptr2h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_pfem8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_0o24l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_dxdrj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_yvfg4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_obssd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_a5g3j")
+}],
+"loop": false,
+"name": &"ReloadCrouch",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("57_guvak")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_rnixi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_ere5j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_kiuxu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_uoqbk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_aytws")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_qy7v6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_tufmm")
+}],
+"loop": false,
+"name": &"Run",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("65_lfsm8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_qptat")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_44664")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_pnfkc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_g8wso")
+}],
+"loop": false,
+"name": &"Shoot",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("70_bawlu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_g8wm0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_5wt3h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_ys2vj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_02kix")
+}],
+"loop": false,
+"name": &"ShootCrouch",
+"speed": 10.0
+}]
+
+[node name="Detective" type="RigidBody2D"]
+script = SubResource("GDScript_nlk3j")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_sqvhy")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(0, 16)
+shape = SubResource("RectangleShape2D_di5hu")
+
+[node name="ShapeCast2D" type="ShapeCast2D" parent="."]
+position = Vector2(0, 14)
+shape = SubResource("CircleShape2D_ovws5")
+target_position = Vector2(0, 0)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(6, 2)
+sprite_frames = SubResource("SpriteFrames_34ahq")
+animation = &"Shoot"
+autoplay = "Idle"
+frame = 4
+frame_progress = 1.0
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+position = Vector2(18, -7)
+target_position = Vector2(256, 0)
+hit_from_inside = true
+collide_with_areas = true
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=31 format=3 uid="uid://cqi243nd2cst6"]
+[gd_scene load_steps=32 format=3 uid="uid://cqi243nd2cst6"]
 
 [ext_resource type="Script" path="res://npcnode.gd" id="1_kicyy"]
 [ext_resource type="Texture2D" uid="uid://bn8dfp6jh8vkp" path="res://Sprites/NPCs/Boy/boy-32-64-idele.png" id="2_gs6ob"]
@@ -280,7 +280,10 @@ _data = {
 [sub_resource type="Theme" id="Theme_w7vb1"]
 default_font_size = 27
 
-[node name="NPCnode" type="Node2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mr5tc"]
+size = Vector2(9.59999, 40.6)
+
+[node name="NPCnode" type="Node2D" groups=["NPC"]]
 position = Vector2(508, 500)
 scale = Vector2(5, 5)
 script = ExtResource("1_kicyy")
@@ -408,3 +411,10 @@ text = "..."
 horizontal_alignment = 1
 vertical_alignment = 1
 autowrap_mode = 2
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(1.2, 2.9)
+scale = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_mr5tc")
